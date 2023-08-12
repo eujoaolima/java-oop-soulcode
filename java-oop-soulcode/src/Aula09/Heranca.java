@@ -22,5 +22,10 @@ public class Heranca {
         
          * - Composicao: Quando uma classe representa todas as outras classes e podemos aciona-la em diversas partes.
          */
+
+        Funcionario f = new Funcionario("Batata", "12345679810", 10);
+
+        System.out.println("Nome do funcionario: " + f.getNome());
+        System.out.println("CPF: " + f.getCpf());
     }
 }
